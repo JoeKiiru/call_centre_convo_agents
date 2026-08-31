@@ -46,12 +46,6 @@ make run       # start the API (no need to activate the venv manually)
 make test      # run the test suite
 ```
 
-Run tests
-
-```bash
-pytest
-```
-
 Notes
 - This repository is a compact educational/portfolio example — models are loaded from Hugging Face and may require network access the first time they are used.
 - See `docs/ARCHITECTURE.md` for decisions and rationale.
