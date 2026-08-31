@@ -1,0 +1,515 @@
+{
+  "conversations": [
+    {
+      "id": "conv_001",
+      "customer_id": "cust_12345",
+      "channel": "chat",
+      "started_at": "2025-01-15T09:23:00Z",
+      "ended_at": "2025-01-15T09:41:00Z",
+      "agent_id": "agent_sarah_m",
+      "agent_name": "Sarah Mitchell",
+      "customer_name": "John Davis",
+      "tags": ["billing", "subscription"],
+      "messages": [
+        {
+          "id": "msg_001",
+          "role": "customer",
+          "content": "Hi, I've been charged twice for my subscription this month and I need this fixed ASAP!",
+          "timestamp": "2025-01-15T09:23:00Z"
+        },
+        {
+          "id": "msg_002",
+          "role": "agent",
+          "content": "Hello John! I'm so sorry to hear about the duplicate charge. I completely understand how frustrating that must be. Let me look into your account right away to get this sorted out for you.",
+          "timestamp": "2025-01-15T09:23:45Z"
+        },
+        {
+          "id": "msg_003",
+          "role": "customer",
+          "content": "Thanks. My account email is john.davis@email.com",
+          "timestamp": "2025-01-15T09:24:30Z"
+        },
+        {
+          "id": "msg_004",
+          "role": "agent",
+          "content": "Thank you, John. I've found your account. I can see there were indeed two charges of $29.99 on January 10th. This appears to be a system error on our end. I sincerely apologize for this inconvenience.",
+          "timestamp": "2025-01-15T09:26:00Z"
+        },
+        {
+          "id": "msg_005",
+          "role": "customer",
+          "content": "So what can you do about it?",
+          "timestamp": "2025-01-15T09:26:45Z"
+        },
+        {
+          "id": "msg_006",
+          "role": "agent",
+          "content": "I'm going to process a refund for the duplicate charge right now. The $29.99 will be credited back to your original payment method within 3-5 business days. I'll also add a note to your account so this doesn't happen again.",
+          "timestamp": "2025-01-15T09:28:00Z"
+        },
+        {
+          "id": "msg_007",
+          "role": "customer",
+          "content": "Okay that works. Will I get a confirmation email?",
+          "timestamp": "2025-01-15T09:29:00Z"
+        },
+        {
+          "id": "msg_008",
+          "role": "agent",
+          "content": "Yes! You'll receive a refund confirmation email within the next 15 minutes. It will include a reference number you can use if you need to follow up. Is there anything else I can help you with today?",
+          "timestamp": "2025-01-15T09:30:00Z"
+        },
+        {
+          "id": "msg_009",
+          "role": "customer",
+          "content": "No that's all. Thanks for the quick help!",
+          "timestamp": "2025-01-15T09:30:45Z"
+        },
+        {
+          "id": "msg_010",
+          "role": "agent",
+          "content": "You're very welcome, John! I'm glad I could resolve this for you quickly. If you have any questions about the refund, don't hesitate to reach out. Have a wonderful day!",
+          "timestamp": "2025-01-15T09:31:30Z"
+        }
+      ],
+      "metadata": {
+        "queue_time_seconds": 45,
+        "handle_time_seconds": 510,
+        "customer_satisfaction_score": 5,
+        "first_contact_resolution": true
+      }
+    },
+    {
+      "id": "conv_002",
+      "customer_id": "cust_67890",
+      "channel": "call",
+      "started_at": "2025-01-16T14:05:00Z",
+      "ended_at": "2025-01-16T14:32:00Z",
+      "agent_id": "agent_mike_r",
+      "agent_name": "Mike Rodriguez",
+      "customer_name": "Emily Chen",
+      "tags": ["technical", "product"],
+      "messages": [
+        {
+          "id": "msg_001",
+          "role": "agent",
+          "content": "Thank you for calling TechSupport, this is Mike. How can I help?",
+          "timestamp": "2025-01-16T14:05:00Z"
+        },
+        {
+          "id": "msg_002",
+          "role": "customer",
+          "content": "Yeah hi. My dashboard has been loading really slowly for the past few days and sometimes it just shows an error. This is affecting my whole team's work.",
+          "timestamp": "2025-01-16T14:05:30Z"
+        },
+        {
+          "id": "msg_003",
+          "role": "agent",
+          "content": "I see. What error message are you seeing?",
+          "timestamp": "2025-01-16T14:06:00Z"
+        },
+        {
+          "id": "msg_004",
+          "role": "customer",
+          "content": "It says something like 'Request timeout' or 'Unable to load data'. It's not consistent.",
+          "timestamp": "2025-01-16T14:06:45Z"
+        },
+        {
+          "id": "msg_005",
+          "role": "agent",
+          "content": "Okay let me check. What's your account email?",
+          "timestamp": "2025-01-16T14:07:15Z"
+        },
+        {
+          "id": "msg_006",
+          "role": "customer",
+          "content": "emily.chen@acmecorp.com",
+          "timestamp": "2025-01-16T14:07:30Z"
+        },
+        {
+          "id": "msg_007",
+          "role": "agent",
+          "content": "Got it. I can see your account. Have you tried clearing your cache?",
+          "timestamp": "2025-01-16T14:08:30Z"
+        },
+        {
+          "id": "msg_008",
+          "role": "customer",
+          "content": "Yes, multiple times. I've also tried different browsers. The problem is the same.",
+          "timestamp": "2025-01-16T14:09:00Z"
+        },
+        {
+          "id": "msg_009",
+          "role": "agent",
+          "content": "Hmm okay. Let me check if there are any issues on our end.",
+          "timestamp": "2025-01-16T14:09:30Z"
+        },
+        {
+          "id": "msg_010",
+          "role": "customer",
+          "content": "Can you please hurry? I have a presentation in an hour and I really need this working.",
+          "timestamp": "2025-01-16T14:12:00Z"
+        },
+        {
+          "id": "msg_011",
+          "role": "agent",
+          "content": "I'm looking into it. Please hold.",
+          "timestamp": "2025-01-16T14:12:30Z"
+        },
+        {
+          "id": "msg_012",
+          "role": "customer",
+          "content": "I've been holding for 5 minutes now. What's going on?",
+          "timestamp": "2025-01-16T14:17:30Z"
+        },
+        {
+          "id": "msg_013",
+          "role": "agent",
+          "content": "Sorry for the wait. So I found that your account has a lot of data - over 2 million records. That might be why it's slow.",
+          "timestamp": "2025-01-16T14:18:00Z"
+        },
+        {
+          "id": "msg_014",
+          "role": "customer",
+          "content": "That doesn't make sense. We've had that much data for months and it was working fine until last week.",
+          "timestamp": "2025-01-16T14:18:45Z"
+        },
+        {
+          "id": "msg_015",
+          "role": "agent",
+          "content": "I'll need to escalate this to our technical team. They'll contact you within 24-48 hours.",
+          "timestamp": "2025-01-16T14:20:00Z"
+        },
+        {
+          "id": "msg_016",
+          "role": "customer",
+          "content": "24-48 hours?! I told you I have a presentation in an hour. Can't someone help me now?",
+          "timestamp": "2025-01-16T14:20:30Z"
+        },
+        {
+          "id": "msg_017",
+          "role": "agent",
+          "content": "I understand but this requires our engineering team. They're not available right now. Is there anything else I can help with?",
+          "timestamp": "2025-01-16T14:21:30Z"
+        },
+        {
+          "id": "msg_018",
+          "role": "customer",
+          "content": "No. This is really disappointing. We pay a lot for this service.",
+          "timestamp": "2025-01-16T14:22:00Z"
+        },
+        {
+          "id": "msg_019",
+          "role": "agent",
+          "content": "I apologize for the inconvenience. Someone will reach out soon. Have a good day.",
+          "timestamp": "2025-01-16T14:22:30Z"
+        }
+      ],
+      "metadata": {
+        "queue_time_seconds": 180,
+        "handle_time_seconds": 1050,
+        "customer_satisfaction_score": 2,
+        "first_contact_resolution": false
+      }
+    },
+    {
+      "id": "conv_003",
+      "customer_id": "cust_11223",
+      "channel": "chat",
+      "started_at": "2025-01-17T11:15:00Z",
+      "ended_at": "2025-01-17T11:28:00Z",
+      "agent_id": "agent_lisa_k",
+      "agent_name": "Lisa Kim",
+      "customer_name": "Robert Martinez",
+      "tags": ["account", "upgrade"],
+      "messages": [
+        {
+          "id": "msg_001",
+          "role": "customer",
+          "content": "I want to upgrade my plan from Basic to Professional",
+          "timestamp": "2025-01-17T11:15:00Z"
+        },
+        {
+          "id": "msg_002",
+          "role": "agent",
+          "content": "Hi Robert! Great to hear you're interested in upgrading! I'd be happy to help you with that. The Professional plan includes advanced analytics, priority support, and unlimited team members. Before we proceed, may I ask what features are most important for your use case?",
+          "timestamp": "2025-01-17T11:15:45Z"
+        },
+        {
+          "id": "msg_003",
+          "role": "customer",
+          "content": "Mainly the advanced analytics and API access. Our team is growing and we need more robust reporting.",
+          "timestamp": "2025-01-17T11:16:30Z"
+        },
+        {
+          "id": "msg_004",
+          "role": "agent",
+          "content": "Perfect! Those are definitely key features of the Professional plan. The upgrade would be $79/month (compared to your current $29/month Basic plan). Since you're upgrading mid-cycle, you'll be prorated for the remainder of this billing period. Would you like me to walk you through the new features before we process the upgrade?",
+          "timestamp": "2025-01-17T11:17:30Z"
+        },
+        {
+          "id": "msg_005",
+          "role": "customer",
+          "content": "No that's okay, I've already reviewed the features on your website. Let's just do the upgrade.",
+          "timestamp": "2025-01-17T11:18:15Z"
+        },
+        {
+          "id": "msg_006",
+          "role": "agent",
+          "content": "Sounds good! I'm processing the upgrade now. For security, I'll need to verify your account. Can you confirm the last 4 digits of the card on file?",
+          "timestamp": "2025-01-17T11:19:00Z"
+        },
+        {
+          "id": "msg_007",
+          "role": "customer",
+          "content": "4521",
+          "timestamp": "2025-01-17T11:19:30Z"
+        },
+        {
+          "id": "msg_008",
+          "role": "agent",
+          "content": "Perfect, that matches our records. Your account has been successfully upgraded to Professional! 🎉 The new features are available immediately. You'll receive a confirmation email with your updated invoice shortly. Here's a quick summary:\n\n- Plan: Professional\n- Monthly cost: $79\n- Prorated charge today: $41.50\n- New features: Now active\n\nIs there anything else I can help you with?",
+          "timestamp": "2025-01-17T11:21:00Z"
+        },
+        {
+          "id": "msg_009",
+          "role": "customer",
+          "content": "Actually yes - how do I add team members?",
+          "timestamp": "2025-01-17T11:21:45Z"
+        },
+        {
+          "id": "msg_010",
+          "role": "agent",
+          "content": "Great question! To add team members:\n\n1. Go to Settings > Team Management\n2. Click 'Invite Member'\n3. Enter their email address and select their role (Admin, Editor, or Viewer)\n4. They'll receive an invitation email to join\n\nWith Professional, you can add unlimited team members. Would you like me to send you our team management guide for more details?",
+          "timestamp": "2025-01-17T11:23:00Z"
+        },
+        {
+          "id": "msg_011",
+          "role": "customer",
+          "content": "Yes please, that would be helpful",
+          "timestamp": "2025-01-17T11:23:30Z"
+        },
+        {
+          "id": "msg_012",
+          "role": "agent",
+          "content": "I've just sent the Team Management Guide to your email (robert.m@techstartup.io). It covers roles and permissions, best practices for team setup, and how to manage access levels. If you have any questions as you're setting things up, feel free to reach out. Anything else I can help with today?",
+          "timestamp": "2025-01-17T11:24:30Z"
+        },
+        {
+          "id": "msg_013",
+          "role": "customer",
+          "content": "No that's everything. Thanks for the quick help!",
+          "timestamp": "2025-01-17T11:25:00Z"
+        },
+        {
+          "id": "msg_014",
+          "role": "agent",
+          "content": "You're welcome, Robert! Congratulations on the upgrade - I think you'll really enjoy the advanced analytics features. If you need any help getting the most out of your new plan, our support team is here for you. Have a great day!",
+          "timestamp": "2025-01-17T11:25:45Z"
+        }
+      ],
+      "metadata": {
+        "queue_time_seconds": 30,
+        "handle_time_seconds": 645,
+        "customer_satisfaction_score": 5,
+        "first_contact_resolution": true
+      }
+    },
+    {
+      "id": "conv_004",
+      "customer_id": "cust_44556",
+      "channel": "chat",
+      "started_at": "2025-01-18T16:42:00Z",
+      "ended_at": "2025-01-18T17:15:00Z",
+      "agent_id": "agent_james_w",
+      "agent_name": "James Wilson",
+      "customer_name": "Amanda Foster",
+      "tags": ["cancellation", "retention"],
+      "messages": [
+        {
+          "id": "msg_001",
+          "role": "customer",
+          "content": "I want to cancel my subscription",
+          "timestamp": "2025-01-18T16:42:00Z"
+        },
+        {
+          "id": "msg_002",
+          "role": "agent",
+          "content": "Hi Amanda, I'm sorry to hear you're thinking about leaving us. I'd really like to understand what's led to this decision. Could you share what's not working for you?",
+          "timestamp": "2025-01-18T16:42:45Z"
+        },
+        {
+          "id": "msg_003",
+          "role": "customer",
+          "content": "The price went up and honestly I'm not using it as much as I thought I would. It's just not worth it for me anymore.",
+          "timestamp": "2025-01-18T16:43:30Z"
+        },
+        {
+          "id": "msg_004",
+          "role": "agent",
+          "content": "I completely understand, Amanda. Budget is important, and I appreciate you being honest about your usage. You're currently on our Team plan at $149/month. Before you go, I wanted to mention a few options:\n\n1. We have a Basic plan at $29/month that might fit your needs better\n2. I can offer you 3 months at 50% off to give you more time to explore the platform\n3. If you just need a break, we can pause your subscription for up to 3 months\n\nWould any of these work for you?",
+          "timestamp": "2025-01-18T16:45:00Z"
+        },
+        {
+          "id": "msg_005",
+          "role": "customer",
+          "content": "The 50% off sounds interesting. But what happens after 3 months?",
+          "timestamp": "2025-01-18T16:46:00Z"
+        },
+        {
+          "id": "msg_006",
+          "role": "agent",
+          "content": "After the 3 months, your plan would return to the regular price of $149/month. However, during those 3 months, I'd recommend we schedule a call with our customer success team. They can help you get more value from the platform - many customers find features they didn't know existed that really transform their workflow. Does that sound fair?",
+          "timestamp": "2025-01-18T16:47:30Z"
+        },
+        {
+          "id": "msg_007",
+          "role": "customer",
+          "content": "I don't know. I've been a customer for 2 years and this is the second price increase. It feels like I'm being taken advantage of.",
+          "timestamp": "2025-01-18T16:48:30Z"
+        },
+        {
+          "id": "msg_008",
+          "role": "agent",
+          "content": "I hear you, and I really appreciate your loyalty over the past 2 years. You're right that we've had price increases, and I understand that can feel frustrating. Let me check what I can do for a long-term customer like yourself... \n\nOkay, I've got approval to offer you our loyalty rate: $99/month locked in for the next 12 months. That's a 33% discount from the current price, and it won't increase for a full year. This is normally only available to our enterprise customers.",
+          "timestamp": "2025-01-18T16:51:00Z"
+        },
+        {
+          "id": "msg_009",
+          "role": "customer",
+          "content": "That's actually really reasonable. Can you put that in writing?",
+          "timestamp": "2025-01-18T16:52:00Z"
+        },
+        {
+          "id": "msg_010",
+          "role": "agent",
+          "content": "Absolutely! I'll apply the loyalty rate to your account right now and send you a confirmation email with all the details, including:\n- New monthly rate: $99\n- Rate lock period: 12 months (until January 2026)\n- All current features included\n\nGive me just a moment to process this...",
+          "timestamp": "2025-01-18T16:53:00Z"
+        },
+        {
+          "id": "msg_011",
+          "role": "agent",
+          "content": "Done! The loyalty rate is now active on your account. You should receive the confirmation email within the next few minutes. I've also added a note to your account about your 2-year loyalty status so any future interactions reference this.\n\nIs there anything else I can help you with today, Amanda?",
+          "timestamp": "2025-01-18T16:55:00Z"
+        },
+        {
+          "id": "msg_012",
+          "role": "customer",
+          "content": "No, that's great. I'm glad we could work something out. Thanks James.",
+          "timestamp": "2025-01-18T16:55:45Z"
+        },
+        {
+          "id": "msg_013",
+          "role": "agent",
+          "content": "Thank you for giving us the chance to make this right, Amanda! We really value your business and I'm glad we found a solution that works for you. If you ever have questions or need anything, don't hesitate to reach out. Have a wonderful rest of your day!",
+          "timestamp": "2025-01-18T16:56:30Z"
+        }
+      ],
+      "metadata": {
+        "queue_time_seconds": 60,
+        "handle_time_seconds": 870,
+        "customer_satisfaction_score": 4,
+        "first_contact_resolution": true,
+        "retention_outcome": "retained"
+      }
+    },
+    {
+      "id": "conv_005",
+      "customer_id": "cust_78901",
+      "channel": "call",
+      "started_at": "2025-01-19T10:30:00Z",
+      "ended_at": "2025-01-19T10:45:00Z",
+      "agent_id": "agent_sarah_m",
+      "agent_name": "Sarah Mitchell",
+      "customer_name": "David Park",
+      "tags": ["feature-request", "feedback"],
+      "messages": [
+        {
+          "id": "msg_001",
+          "role": "agent",
+          "content": "Good morning! Thank you for calling Support. My name is Sarah. How can I assist you today?",
+          "timestamp": "2025-01-19T10:30:00Z"
+        },
+        {
+          "id": "msg_002",
+          "role": "customer",
+          "content": "Hi Sarah. I love your product overall, but I have a feature suggestion that would really help my workflow.",
+          "timestamp": "2025-01-19T10:30:30Z"
+        },
+        {
+          "id": "msg_003",
+          "role": "agent",
+          "content": "That's wonderful to hear, David! We're always eager to get feedback from our customers. What feature would you like to suggest?",
+          "timestamp": "2025-01-19T10:31:00Z"
+        },
+        {
+          "id": "msg_004",
+          "role": "customer",
+          "content": "So right now when I export reports, I can only do it as CSV or PDF. It would be really helpful if there was an option to export directly to Google Sheets. We use Google Workspace for everything and it would save me a lot of manual work.",
+          "timestamp": "2025-01-19T10:32:00Z"
+        },
+        {
+          "id": "msg_005",
+          "role": "agent",
+          "content": "That's an excellent suggestion! I can definitely see how a direct Google Sheets integration would streamline your workflow. Let me document this properly so our product team can review it. Could you tell me a bit more about your use case? How often do you export reports, and what kind of processing do you typically do after export?",
+          "timestamp": "2025-01-19T10:33:00Z"
+        },
+        {
+          "id": "msg_006",
+          "role": "customer",
+          "content": "I export weekly analytics reports every Monday. After export, I share them with my team leads and we add comments and action items. Then I create a summary that goes to leadership. Right now I download the CSV, upload to Sheets, format it, and share. It takes about 30 minutes each time.",
+          "timestamp": "2025-01-19T10:34:30Z"
+        },
+        {
+          "id": "msg_007",
+          "role": "agent",
+          "content": "Thank you for that context, David. That's really valuable information. So you're spending about 2 hours a month just on the export and formatting process. I've documented your request with all these details. I should mention that this feature has actually been requested by several other customers, which is a good sign - it means it's more likely to be prioritized.\n\nWhile I can't guarantee implementation timelines, I can add you to our feature update list. When there's any progress on Google Workspace integrations, you'll be notified directly. Would you like that?",
+          "timestamp": "2025-01-19T10:36:30Z"
+        },
+        {
+          "id": "msg_008",
+          "role": "customer",
+          "content": "Yes, please! That would be great.",
+          "timestamp": "2025-01-19T10:37:00Z"
+        },
+        {
+          "id": "msg_009",
+          "role": "agent",
+          "content": "Perfect, I've added you to the notification list. In the meantime, I have a workaround that might help. Are you familiar with our API? You could potentially use Zapier or our native API to automatically push reports to Google Sheets on a schedule. Would you like me to send you some documentation on that?",
+          "timestamp": "2025-01-19T10:38:30Z"
+        },
+        {
+          "id": "msg_010",
+          "role": "customer",
+          "content": "I didn't know that was possible! Yes, please send that over. My email is david.park@innovateinc.com",
+          "timestamp": "2025-01-19T10:39:15Z"
+        },
+        {
+          "id": "msg_011",
+          "role": "agent",
+          "content": "I'll send that right over. You'll receive our API documentation along with a specific guide for the Zapier integration with Google Sheets. If you need help setting it up, our technical support team offers free onboarding calls.\n\nIs there anything else I can help you with today?",
+          "timestamp": "2025-01-19T10:40:30Z"
+        },
+        {
+          "id": "msg_012",
+          "role": "customer",
+          "content": "No, that's everything. This was really helpful - more than I expected when I called in!",
+          "timestamp": "2025-01-19T10:41:00Z"
+        },
+        {
+          "id": "msg_013",
+          "role": "agent",
+          "content": "I'm so glad I could help, David! Thank you for taking the time to share your feedback - customer input like yours really does shape our product roadmap. Have a wonderful week, and don't hesitate to reach out if you need any help with that Zapier setup!",
+          "timestamp": "2025-01-19T10:41:45Z"
+        }
+      ],
+      "metadata": {
+        "queue_time_seconds": 15,
+        "handle_time_seconds": 705,
+        "customer_satisfaction_score": 5,
+        "first_contact_resolution": true,
+        "feature_request_logged": true
+      }
+    }
+  ]
+}
